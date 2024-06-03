@@ -13,7 +13,7 @@ const stats = [
   },
   {
     num: 13,
-    text: "Conhecimento em",
+    text: " linguagens de programação masterizadas",
   },
   
 ];
