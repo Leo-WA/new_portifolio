@@ -20,17 +20,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "(47) 997780819",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "wiese.programmer@gmail.com@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    title: "localização",
+    description: "Camboriú, SC",
   },
 ];
 
@@ -58,10 +58,10 @@ const Contact = () => {
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input type="nome" placeholder="Firstname" />
+                <Input type="sobre nome" placeholder="Lastname" />
+                <Input type="seu email" placeholder="Email address" />
+                <Input type="seu celular" placeholder="Phone number" />
               </div>
               {/* select */}
               <Select>
