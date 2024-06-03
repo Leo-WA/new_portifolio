@@ -58,15 +58,15 @@ const Contact = () => {
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="nome" placeholder="Firstname" />
-                <Input type="sobre nome" placeholder="Lastname" />
-                <Input type="seu email" placeholder="Email address" />
-                <Input type="seu celular" placeholder="Phone number" />
+                <Input type="firstname" placeholder="Nome" />
+                <Input type="lastname" placeholder="Sobre Nome" />
+                <Input type="email" placeholder="Seu email aqui" />
+                <Input type="phone" placeholder="Seu telefone aqui" />
               </div>
               {/* select */}
               <Select>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
+                  <SelectValue placeholder="Selecione um serviço" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
