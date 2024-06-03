@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
 // components
@@ -18,18 +17,18 @@ const Home = () => {
               Olá, eu sou <br /> <span className="text-accent">Leonardo Wiese</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Com ampla experiência em desenvolvimento web, sou especializado em criar soluções eficazes e inovadoras para projetos online. Minha paixão pelo desenvolvimento de software me impulsiona a buscar constantemente maneiras de melhorar e aprimorar a experiência do usuário.
+              Com ampla experiência em desenvolvimento web, sou especializado em criar soluções eficazes e inovadoras para projetos online. Minha paixão pelo desenvolvimento de software me impulsiona a buscar constantemente maneiras de melhorar e aprimorar a experiência do usuário.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <a
+                href="/assets/CV.pdf"  // Caminho para o arquivo de currículo
+                download="Leonardo_Wiese_Curriculo.pdf"  // Nome do arquivo baixado
+                className="uppercase flex items-center gap-2 border border-gray-300 px-4 py-2 rounded text-gray-300 hover:bg-gray-300 hover:text-primary transition-all duration-300"
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
-              </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
