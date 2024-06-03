@@ -23,7 +23,7 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
                 href="/assets/CV.pdf"  // Caminho para o arquivo de currículo
-                download="Leonardo_Wiese_Curriculo.pdf"  // Nome do arquivo baixado
+                download="CV.pdf"  // Nome do arquivo baixado
                 className="uppercase flex items-center gap-2 border border-gray-300 px-4 py-2 rounded text-gray-300 hover:bg-gray-300 hover:text-primary transition-all duration-300"
               >
                 <span>Download CV</span>
